@@ -238,8 +238,8 @@
 
     h1 {
         position: absolute;
-        top:10vh;
-        left:14.375vw;
+        top:10vw;
+        left:0vw;
         height: 285px;
         color: #333333;
         font-family: Goham, sans-serif;
@@ -251,7 +251,7 @@
     
      h1 {
         position: absolute;
-        top:10vw;
+        top:-10vw;
         left:0vw;
         height: 17.8vw;
         color: #333333;
