@@ -75,7 +75,7 @@
 
     p {
         height: 19.68vw;
-         /* width: 85.68vw; 287px */
+        /* width: 85.68vw; 287px */
         width: 85.68vw; /* correct text look by design */
         font-size: 4vw !important;
         margin-left: 2.5vw; /* 8 / 3.2 */
@@ -141,8 +141,9 @@
         position:absolute;
         top:50.78vw;
         left:3.51vw !important;
+        height: 144vw;
         width:92.83vw;
-        border:1px solid pink;
+        margin-bottom: 19.79vw;
     }
 
     .linksList img {
@@ -222,9 +223,6 @@
         -webkit-transform: translateX(0.9vw);
     }
 
-    .link5 {
-        margin-bottom: 19.79vw;
-    }
 }
 
 
