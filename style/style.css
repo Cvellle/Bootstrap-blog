@@ -213,23 +213,23 @@
 @media (min-width: 1025px) {
 
     .navLinkLeft {
-        margin-left:1.875rem;
-        margin-top:1rem;
+        margin-left:1.875vw;
+        margin-top:1.875vw;
     }
 
     .navLinkRight {
-        margin-right:1.875rem;
-        margin-top:1rem;
+        margin-right:1.875vw;
+        margin-top:1.875vw;
     }
 
     .navLinkLeft>img {
-        height: 29px;
-        width: 60px;
+        height: 1.81vw;
+        width: 3.75vw
     }
 
     .navLinkRight>img {
-        height: 26px;
-        width: 26px;
+        height: 1.62vw;
+        width: 1.62vw;
     }
 
     a {
@@ -238,76 +238,89 @@
 
     h1 {
         position: absolute;
-        top:10vw;
+        top:10vw; 
         left:0vw;
-        height: 285px;
+        height: 17.81vw;
         color: #333333;
         font-family: Goham, sans-serif;
-        font-size: 500% !important;
-        font-weight: 900;
-        letter-spacing: 0.3px;
-        line-height: 95px;
-    }
-    
-     h1 {
-        position: absolute;
-        top:-10vw;
-        left:0vw;
-        height: 17.8vw;
-        color: #333333;
-        font-family: Goham, sans-serif;
-        font-size: 5.6vw !important;
+        font-size: 5.62vw !important;
         font-weight: bold;
-        letter-spacing: 0.01vw;
-        line-height: 5.9vw;
+        letter-spacing: 00.01vw;
+        line-height: 5.93vw;
     }
 
     .linksList {
         position:absolute;
-        top:35.93vh;
-        width:71.125vw;
-        left:14.375vw;
+        width:71.25vw;
+        padding-top:28.87vw; /* 332 + 130   "img and title have no space between with 332px padding"*/
+        left:50%;
+        -webkit-transform: translateX(-50%);   /* for totally centralised option  */
+        /* left:14.37vw; 230/ 16 */
     }
 
     .linksList img {
-        height:325px;
+        height:22.06vw;
         width:34.68vw;
-        margin-top:4vh;
-        margin-bottom:3vh;
+        margin-top:5vw;
+        margin-bottom:0vw;
+        position: relative;
+        left:50%;
+        -webkit-transform: translateX(-50%);
+    }
+
+    .first, .second {
+        margin-top:0vw !important;
+    }
+
+    .fifth, .sixth {
+        margin-top:9.75vw !important;
     }
 
     .row {
-        margin-top:130px;
+        margin-top:8.12vw;
     }
 
     h2 {
-        height: 5vh;
-        width: 328px;
+        height: 3.06vw;
+        width: 32.25vw;
         color: #333333;
         font-family: Gotham, sans-serif;
-        font-size: 23px;
+        font-size: 1.43vw;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 1.87vw; 
         width: 500px;
-        margin-top: -2.5rem !important;
-        margin-left: 1rem;
+        -webkit-transform: translateY(-5.25vw); /*74*/
+        margin-top: 2.5vw !important; 
+        margin-bottom:0.75vw !important;        
+        margin-left: 1.5vw;
     }
 
     p {
-        margin-left: 1rem;
+        -webkit-transform: translateY(-5.87vw);
+        margin-left: 1.5vw;
+        height: 6.18vw;
+        font-size: 1.25vw; 
+        width: 33.12vw;
+        margin-bottom: -5.87vw !important;
     }
 
     .line {
         box-sizing: border-box;
-        height: 55px;
-        width: 1px;
-        border: 1.5px solid #AB4D8E;}
+        height: 3.43vw;
+        width: 0.06vw;
+        margin-top: 2.06vw;
+        border: 0.06vw solid #AB4D8E; /* for 1 px width */
+        border: 0.12vw solid #AB4D8E; /* visualy closer to the design */
     }
 
     .link7 p {
-        transform: translateY(2vw);
+        -webkit-transform: translateY(-50px) !important;
+        margin-bottom:327px !important;
     }
 
+}
 
+h2 {
+    cursor:pointer;
 }
 
