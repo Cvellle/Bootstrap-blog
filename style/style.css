@@ -35,7 +35,7 @@
     h1 {
         position: absolute;
         top:25.62vw; /* 82/3.2 */
-        left:0vw;
+        left:4vw;
         width: 92.5vw; /* 296/3.2 */
         height:38.43vw;
         color: #333333;
@@ -43,7 +43,6 @@
         font-size: 8.12vw !important;
         font-weight: bold;
         line-height: 39px;
-        -webkit-transform: translate(0,-76.5vw); 
         padding-top:3vw;
         padding-left:1vw;
         margin-bottom: 40px !important;
@@ -151,8 +150,9 @@
 
     h1 {
         position: absolute;
-        top:-31.91vw; /* 21.5 + 10.41 (80px is the distance between h1 and image)*/
-        left:0.39vw !important;
+        top:14.19vw; /* 109px */
+        padding-top:2.5vw;
+        left:3.9vw !important;
         height: 26.44vw;
         width: 75.78vw;
         color: #333333;
@@ -252,7 +252,7 @@
     h1 {
         position: absolute;
         top:10vw; 
-        left:0vw;
+        left:14.37vw; 
         height: 17.81vw;
         color: #333333;
         font-family: Gotham, sans-serif;
@@ -265,10 +265,11 @@
     .linksList {
         position:absolute;
         width:71.25vw;
-        padding-top:28.87vw; /* 332 + 130   "img and title have no space between with 332px padding"*/
+        padding-top:28.87vw; 
         left:50%;
-        -webkit-transform: translateX(-50%);   /* for totally centralised option  */
-        /* left:14.37vw; 230/ 16 */
+        left:14.37vw; 
+        /* -webkit-transform: translateX(-50%);  second option  */
+
     }
 
     .linksList img {
