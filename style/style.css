@@ -51,16 +51,17 @@
     .linksList {
         position: absolute;
         top:76.56vw;
-        left:4vw;
-        width: 92.5vw; 
+        width: 92.5vw;
+        /* left:4vw; 12 px second option */  
+        left:50%;
+        -webkit-transform: translateX(-50%); /* centralise */
+        margin-left: -0.15vw; /* 1px - left distance 12px, right 13px; */
     }
 
     .linksList img {
-        width: 93vw;
-        width: 93vw;
+        width: 92.5vw;
         margin-top:0vh;
         margin-bottom:3vw;
-
     }
     
     h2 {
@@ -329,7 +330,7 @@
         height: 3.43vw;
         width: 0.06vw;
         margin-top: 2.06vw;
-        border: 0.06vw solid #AB4D8E; /* for 1 px width */
+        /*border: 0.06vw solid #AB4D8E; for 1 px width*/
         border: 0.12vw solid #AB4D8E; /* visualy closer to the design */
     }
 
