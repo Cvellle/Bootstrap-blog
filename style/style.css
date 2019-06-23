@@ -149,11 +149,11 @@
     .linksList img {
         width:44.66vw !important;
         height: 26.44vw;
-        transform: translateX(0.9vw) !important;
+        -webkit-transform: translateX(0.9vw) !important;
     }
 
     .col-sm-6:nth-child(odd) {
-        transform: translateX(0.9vw) !important;
+        -webkit-transform: translateX(0.9vw) !important;
     }
 
     h1 {
