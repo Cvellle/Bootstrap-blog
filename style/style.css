@@ -139,7 +139,7 @@
 
     .linksList {
         position:absolute;
-        top:50.78vw;
+        top:50.78vw; /* distance from top of the screen */
         left:3.51vw !important;
         height: 144vw;
         width:92.83vw;
