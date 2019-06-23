@@ -55,7 +55,6 @@
         /* left:4vw; 12 px second option */  
         left:50%;
         -webkit-transform: translateX(-50%); /* centralise */
-        margin-left: -0.15vw; /* 1px - left distance 12px, right 13px; */
     }
 
     .linksList img {
