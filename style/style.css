@@ -8,19 +8,18 @@
 }
 
 
-
 /* MOBILE */
 
 @media (min-width: 320px) and (max-width: 767px) {
     
     .navLinkLeft {
-        margin-left:4.5vw;
-        margin-top:4.5vw;
+        margin-left:3.75vw;
+        margin-top:6.56vw;
     }
     
     .navLinkRight {
-        margin-right:4.06vw;
-        margin-top:4.5vw;
+        margin-right:4vw;
+        margin-top:6.56vw; /* 21/3.2 */
     }
     
     .navLinkLeft>img {
@@ -103,9 +102,11 @@
         display: block;
     }
 
+    .link6 {
+        margin-bottom: 25.32vw !important;
+    }
+
 }
-
-
 
 
 
@@ -136,49 +137,65 @@
 
     .linksList {
         position:absolute;
-        top:30vh;
-        left:3.2vw !important;
-        width:94vw;
+        top:50.78vw;
+        left:3.51vw !important;
+        width:92.83vw;
+        border:1px solid pink;
     }
 
     .linksList img {
-        width:45.1vw !important;
-        top:10vh;
+        width:44.66vw !important;
+        height: 26.44vw;
         transform: translateX(0.9vw) !important;
     }
 
     .col-sm-6:nth-child(odd) {
-        transform: translate(0.7vw) !important;
+        transform: translateX(0.9vw) !important;
     }
 
     h1 {
         position: absolute;
-        top:-20vh;
-        left:0vw !important;
-        height: 201px;
-        width: 576px;
+        top:-31.91vw; /* 21.5 + 10.41 (80px is the distance between h1 and image)*/
+        left:0.39vw !important;
+        height: 26.44vw;
+        width: 75.78vw;
         color: #333333;
         font-family: Gotham, sans-serif;
         font-size: 4.4vh !important;
         font-weight: bold;
-        line-height: 67px;
+        line-height: 8.81vw;
     }
 
     h2 {
         width:40vw;
-        font-size: 3vw !important;
-        margin-top: -3.3vw !important;
-        margin-left: 1.5rem;
+        height: 5.72w;
+        font-size: 2.99vw !important;
+        margin-top: -4.05vw !important;
+        margin-left: 2.33vw;
+        border:1px solid pink;
     }
 
     p {
-        font-size: 1.4vw !important;
-        margin-left: 1.5rem;
+        height: 8.98w;
+        width: 42.7vw; /* 328 / 7.68 */
+        width: 40vw; /* for right look of the text */
+        font-size: 1.82vw !important;
+        font-weight: 300;
+        line-height: 2.99vw;
+        margin-left: 2.33vw;
+        margin-top: -0.2rem !important;
+        border:1px solid skyblue;
+        margin-bottom: 6.51vw !important;
+    }
+
+    p>br {
+        display: none;
     }
 
     div {
         padding:0px !important;
     }
+
     
     div.col-sm-6 {
         width:30px;
@@ -187,9 +204,9 @@
     .line {
         box-sizing: border-box;
         height: 2rem;
-        width: 1px;
-        border: 1.5px solid #AB4D8E;
-        margin-left:2vw !important;
+        width: 0.5px;
+        border: 1px solid #AB4D8E;
+        margin-left:0.9vw !important;
         margin-top:1.97vw;
     }
 
@@ -202,9 +219,14 @@
     }
 
     .row>div:nth-child(even) {
-        -webkit-transform: translateX(1vw);
+        -webkit-transform: translateX(0.9vw);
+    }
+
+    .link5 {
+        margin-bottom: 19.79vw;
     }
 }
+
 
 
 
@@ -313,7 +335,7 @@
         border: 0.12vw solid #AB4D8E; /* visualy closer to the design */
     }
 
-    .link7 p {
+    .link5 p {
         -webkit-transform: translateY(-50px) !important;
         margin-bottom:327px !important;
     }
