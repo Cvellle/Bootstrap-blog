@@ -75,6 +75,8 @@
 
     p {
         height: 19.68vw;
+         /* width: 85.68vw; 287px */
+        width: 85.68vw; /* correct text look by design */
         font-size: 4vw !important;
         margin-left: 2.5vw; /* 8 / 3.2 */
         font-weight: 300;
