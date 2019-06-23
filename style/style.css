@@ -13,13 +13,13 @@
 @media (min-width: 320px) and (max-width: 767px) {
     
     .navLinkLeft {
-        margin-left:3.75vw;
-        margin-top:6.56vw;
+        margin-left:4vw;
+        margin-top:6vw;
     }
     
     .navLinkRight {
-        margin-right:4vw;
-        margin-top:6.56vw; /* 21/3.2 */
+        margin-right:3.75vw;
+        margin-top:6vw;
     }
     
     .navLinkLeft>img {
@@ -45,6 +45,7 @@
         line-height: 39px;
         -webkit-transform: translate(0,-76.5vw); 
         padding-top:3vw;
+        padding-left:1vw;
         margin-bottom: 40px !important;
 }
 
@@ -52,7 +53,7 @@
         position: absolute;
         top:76.56vw;
         width: 92.5vw;
-        left:4vw;  /* 12 px */
+        left:4vw;  
         /*left:50%;
         -webkit-transform: translateX(-53.2%);  centralise with a difference in count - 12px 13px*/
         
@@ -66,11 +67,10 @@
     
     h2 {
         font-size: 5.6vw !important; 
-        margin-top: -1.5rem !important;
-        margin-left: 0.5rem;
+        margin-top: -7.18vw !important;
+        margin-left: 2.5vw;
         top:76.56vw;
-        margin-left: 2.5vw; /* 8 / 3.2 */
-        margin-bottom: 1.25vw; /* 8 / 3.2 */
+        margin-bottom: 0.25vw; /* 8 / 3.2 */
         width: 92.5vw; 
     }
 
