@@ -110,6 +110,14 @@
         display: none;
     }
 
+    .break1 {
+        display: inline;
+    }
+
+    .tabBreak {
+        display: none;
+    }
+    
 
 }
 
@@ -168,7 +176,7 @@
         width: 75.78vw;
         color: #333333;
         font-family: Gotham, sans-serif;
-        font-size: 4.4vh !important;
+        font-size: 4.8vh !important;
         font-weight: bold;
         line-height: 8.81vw;
     }
@@ -235,6 +243,14 @@
         -webkit-transform: translateX(0.9vw);
     }
 
+    .break1 {
+        display: none;
+    }
+
+    .tabBreak {
+        display: inline;
+    }
+
 }
 
 
@@ -275,10 +291,10 @@
         height: 17.81vw;
         color: #333333;
         font-family: Gotham, sans-serif;
-        font-size: 5.62vw !important;
-        font-weight: bold;
-        letter-spacing: 00.01vw;
-        line-height: 5.93vw;
+        font-size: 6vw !important;
+        font-weight: bold !important;
+        letter-spacing: 00.01vw !important;
+        line-height: 5.93vw !important;
     }
 
     .linksList {
@@ -360,6 +376,14 @@
     }
   
     .hide4 {
+        display: none;
+    }
+
+    .break1 {
+        display: inline;
+    }
+
+    .tabBreak {
         display: none;
     }
 
