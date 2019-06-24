@@ -194,7 +194,7 @@
         width: 42.7vw; /* 328 / 7.68 */
         width: 40vw; /* for right look of the text */
         font-size: 1.82vw !important;
-        font-weight: 300;
+        font-weight: 300 !important;
         line-height: 2.99vw;
         margin-left: 2.33vw;
         margin-top: -0.2rem !important;
