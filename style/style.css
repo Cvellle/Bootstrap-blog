@@ -192,10 +192,10 @@
     p {
         height: 8.98w;
         width: 42.7vw; /* 328 / 7.68 */
-        width: 40vw; /* for right look of the text */
-        font-size: 1.82vw !important;
+        width: 35vw; /* for right look of the text */
+        font-size: 1.9vw !important;
         font-weight: 300 !important;
-        line-height: 2.99vw;
+        line-height: 2.99vw !important;
         margin-left: 2.33vw;
         margin-top: -0.2rem !important;
         margin-bottom: 6.51vw !important;
