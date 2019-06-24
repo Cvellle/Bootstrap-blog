@@ -308,7 +308,7 @@
     }
 
     .linksList img {
-        height:22.06vw;
+        height:20.31vw;
         width:34.68vw;
         margin-top:5vw;
         margin-bottom:0vw;
@@ -356,10 +356,9 @@
     .line {
         box-sizing: border-box;
         height: 3.43vw;
-        width: 0.06vw;
+        width: 0.16vw;
         margin-top: 2.06vw;
-        /*border: 0.06vw solid #AB4D8E; for 1 px width*/
-        border: 0.12vw solid #AB4D8E; /* visualy closer to the design */
+        background: #AB4D8E;
     }
 
     .link5 p {
