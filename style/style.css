@@ -170,15 +170,15 @@
     h1 {
         position: absolute;
         top:14.19vw; /* 109px */
-        padding-top:2.5vw;
+        padding-top:1vw;
         left:3.9vw !important;
         height: 26.44vw;
-        width: 75.78vw;
+        width: 78vw !important;
         color: #333333;
         font-family: Gotham, sans-serif;
-        font-size: 4.8vh !important;
-        font-weight: bold;
-        line-height: 8.81vw;
+        font-size: 5.5vw !important;
+        font-weight: bold !important;
+        line-height: 8.81vw !important;
     }
 
     h2 {
