@@ -44,12 +44,13 @@ body {
         height:38.43vw;
         color: #333333;
         font-family: Gotham, sans-serif;
-        font-size: 8.12vw !important;
+        /*font-size: 8.12vw !important; 26px  */
+        font-size: 9.5vw !important;
         font-weight: bold;
-        line-height: 39px;
-        padding-top:3.5vw;
+        line-height: 12.18vw;
+        padding-top:3vw;
         padding-left:1vw;
-        margin-bottom: 12.5px !important;
+        margin-bottom: 12.5vw !important;
 }
 
     .linksList {
