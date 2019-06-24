@@ -1,15 +1,4 @@
 
-body {
-  margin:0;
-}
-
-.hide1 {
-    display: block;
-}
-
-.hide2 {
-    display: none;
-}
 
 
 /* MOBILE */
@@ -111,6 +100,14 @@ body {
 
     .hide2 {
         display: block;
+    }
+
+    .hide3 {
+        display: block;
+    }
+
+    .hide4 {
+        display: none;
     }
 
 
@@ -224,6 +221,10 @@ body {
 
     .hide2 {
         display: block;
+    }
+
+    .hide4 {
+        display: none;
     }
 
     .row>div:nth-child(even) {
@@ -345,6 +346,19 @@ body {
         -webkit-transform: translateY(-50px) !important;
         margin-bottom:327px !important;
     }
+  
+    .hide1 {
+        display: block;
+    }
+
+    .hide2 {
+        display: none;
+    }
+  
+    .hide4 {
+        display: none;
+    }
+
 
 }
 
