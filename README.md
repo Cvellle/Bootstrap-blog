@@ -6,4 +6,5 @@ for tablet px / 7.68 - 768px screen
 
 for desktop px / 16 - 1600px screen
 
-that works on other screens# Bootstrap-blog
+that works on other screens
+
