@@ -330,15 +330,15 @@
     }
 
     h2 {
-        height: 3.06vw;
+        height: 3.06vw !important;
         width: 32.25vw;
         color: #333333;
-        font-family: Gotham, sans-serif;
-        font-size: 1.43vw;
-        font-weight: 500;
-        line-height: 1.87vw; 
-        width: 500px;
-        -webkit-transform: translateY(-5.25vw); /*74*/
+        font-family: Gotham, sans-serif !important;
+        font-size: 2.5vw !important;
+        font-weight: 500 !important;
+        line-height: 2vw !important; 
+        width: 500px !important;
+        -webkit-transform: translateY(-5vw); /*74*/
         margin-top: 2.5vw !important; 
         margin-bottom:0.75vw !important;        
         margin-left: 1.5vw;
@@ -347,9 +347,9 @@
     p {
         -webkit-transform: translateY(-5.87vw);
         margin-left: 1.5vw;
-        height: 6.18vw;
-        font-size: 1.25vw; 
-        width: 33.12vw;
+        height: 6.18vw !important;
+        font-size: 1.35vw !important; 
+        width: 35vw;
         margin-bottom: -5.87vw !important;
     }
 
