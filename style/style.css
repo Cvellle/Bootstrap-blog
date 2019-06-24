@@ -356,9 +356,9 @@
     .line {
         box-sizing: border-box;
         height: 3.43vw;
-        width: 0.16vw;
+        width: 0.06vw;
         margin-top: 2.06vw;
-        background: #AB4D8E;
+        border: 0.12vw solid #AB4D8E;
     }
 
     .link5 p {
