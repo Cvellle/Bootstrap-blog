@@ -34,10 +34,10 @@
         color: #333333;
         font-family: Gotham, sans-serif;
         /*font-size: 8.12vw !important; 26px  */
-        font-size: 9.5vw !important;
-        font-weight: bold;
-        line-height: 12.18vw;
-        padding-top:3vw;
+        font-size: 8.12vw !important;
+        font-weight: bold !important;
+        line-height: 12.18vw !important;
+        padding-top:2.5vw;
         padding-left:1vw;
         margin-bottom: 12.5vw !important;
 }
