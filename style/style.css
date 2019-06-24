@@ -64,7 +64,10 @@
         margin-left: 2.5vw;
         top:76.56vw;
         margin-bottom: 0.25vw; /* 8 / 3.2 */
+        font-weight: bold !important;
+        line-height: 9.5px;
         width: 92.5vw; 
+        letter-spacing: 0.45vw !important; 
     }
 
     p {
