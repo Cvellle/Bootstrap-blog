@@ -32,11 +32,15 @@
     .linksList {
         position: relative;
         top:29.56vw;
+        width: 91vw;
+        left:50%;
+        transform: translateX(-50%);
     }
 
     .linksList img {
         margin-top:0vh;
         margin-bottom:3vw;
+        width: 91vw;
     }
 
     h5 {
